@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Spending Management System</title>
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+
+	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+
+	<style type="text/css">
+		.img-container{
+			max-width: 600px;
+		}
+
+		img{
+			width: 100%
+		}
+
+	</style>
+
+</head>
+<body>
+	<div class="nav-wrapper">
+
+		<a href="index.html">
+			<div class="dots-wrapper">
+				<div id="dot-1" class="browser-dot"></div>
+				<div id="dot-2" class="browser-dot"></div>
+				<div id="dot-3" class="browser-dot"></div>
+			</div>
+		</a>
+
+		<ul id="navigation">
+			<li><a href="index.html#contact">Contact</a></li>
+
+		</ul>
+	</div>
+
+	<div class="main-container">
+		<br>
+
+		<div class="img-container">
+			<img src="images/landing-page-spending.png">
+		</div>
+		
+		<h3>Spending Management System</h3>
+
+		<p>This was a project I started back in June 2020 when I first learned Ruby. This was my first ever solo project and I am proud of how it turned out.
+		<br>
+		<br>
+		The system is utilising Postgres on the backend that allows it to save the users data and also allows for timestamp generation, this makes it even easier for the user to track spending.
+		<br>
+		<br>
+		Sinatra a Ruby web framework, is being used to handle request routing and provide a mechanism for the application to respond to different URLs with the right response within the program.
+		<br>
+		<br> 
+		On the front end a mixture of Ruby, HTML & CSS was used. I tried to design the front end in such a way that it would be recognizable to the user, so the systems UI is heavily inspired by modern online banking systems.
+		<br>
+		<br>
+		The system allows users to track their daily expenditure, while keeping tabs on varying merchants and shopping categories.</p>
+
+		<h5>Technologies:</h5>
+		<ul>
+			<li>- Ruby</li>
+			<li>- HTML/CSS</li>
+			<li>- PostgreSQL</li>
+			<li>- Sinatra</li>
+		</ul>
+
+
+		<h5>System User Dashboard</h5>
+		<div class="img-container">
+			<img src="images/landing-page-spending.png">
+		</div>
+
+		<h6>Create New Transaction</h5>
+		<div class="img-container">
+			<img src="images/create-new-transaction.png">
+		</div>
+
+		<h5>Transaction (Timestamp Automaticly Generated</h5>
+		<div class="img-container">
+			<img src="images/transaction.png">
+		</div>
+
+		<h5>Saved Merchant List</h5>
+		<div class="img-container">
+			<img src="images/merchant-page.png">
+		</div>
+
+		<h5>Saved Categories List</h5>
+		<div class="img-container">
+			<img src="images/categories-page.png">
+		</div>
+
+	</div>
+
+</body>
+</html>
